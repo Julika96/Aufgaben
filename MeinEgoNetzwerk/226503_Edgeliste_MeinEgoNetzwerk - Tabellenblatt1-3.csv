@@ -1,0 +1,9 @@
+from,to,weight,duration,relationship
+Ego,Dominik,2,3,2
+Ego,Lisa,3,3,10
+Ego,Julia,3,1,6
+Ego,Uschi,3,3,1
+Dominik,Uschi,4,3,1
+Uschi,Dominik,4,3,1
+Dominik,Lisa,NA,NA,NA
+Lisa,Dominik,NA,NA,NA
