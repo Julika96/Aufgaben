@@ -65,6 +65,7 @@ Status in der Kohlekommission
 3= kein Stimmrecht
 
 **state**
+Herkunft der Mitglieder nach deutschen Bundesländern
 1=Brandenburg
 2=Nordrhein-Westfalen 
 3=Berlin
@@ -75,7 +76,7 @@ Status in der Kohlekommission
 8=Bayern
 9=Niedersachsen
 
-
+99: definiert fehlende Werte
 
 
   
