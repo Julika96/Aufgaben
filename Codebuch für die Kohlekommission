@@ -10,23 +10,23 @@ erstellt von Julika Olpp (jo033@hdm-stuttgart.de)
 # EDGE-Attribute
 
 **from**  
-eindeutige Codierung der Knoten, Name der Knoten ausgehende Reichtung
+Definiert den Sender in gerichteten Netzwerken. Entspricht ID in der Nodelist.
 
 **to**  
-eindeutige Codierung der Knoten, Name der Knoten zu dem es geht.
+Definiert den Empfänger in ungerichteten Netzwerken. Entspricht ID in der Nodelist. 
 
 **relation**
-definiert die Zugehörigkeit der Personen, bzw. die Beziehungsart
+definiert die verschiedenen Beziehungsarten der Knoten
 1= Mitglied,
 2= Vorstand
 4= Partei
 5= Verband
-6=Professur, Forschungsleitung
+6= Professur, Forschungsleitung
 
 # NODE-Attribute  
   
 **id**  
-Identische ID wie aus der edgelist zur Identifikation der Knoten. .
+Identische ID wie in der Edgelist angegeben. Eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  
 
 **sex**    
 1 = weiblich  
@@ -41,13 +41,14 @@ Identische ID wie aus der edgelist zur Identifikation der Knoten. .
 5 = über 64
 
 **party**  
+Parteizugehörigkeit
 1= CDU/CSU
 2= SPD 
 3= Grüne
 4= Linke
 5= FDP
-6=AfD
-7=parteilos
+6= AfD
+7= parteilos
 
 **representaion**
 gibt die Vertretung aus den unterschiedlichen Ressorts in der Kohlekommission an
@@ -59,7 +60,7 @@ gibt die Vertretung aus den unterschiedlichen Ressorts in der Kohlekommission an
 6= Wissenschaft      
 
 **position**
-Status in der Kohlekommission
+gibt den Status in der Kohlekommission an
 1= Vorsitz
 2= Mitglied
 3= kein Stimmrecht
