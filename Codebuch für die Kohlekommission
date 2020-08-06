@@ -32,6 +32,11 @@ Identische ID wie in der Edgelist angegeben. Eindeutige Identifikation jedes ein
 1 = weiblich  
 2 = männlich  
 3 = divers
+
+**type**
+relevant da wir ein two-mode Netzwerk haben, um die Unterscheidung zwischen z.B. Akteur und Organisation zu berechnen.
+1= Person/Akteur
+2= Organisation
   
 **age**   
 1 = unter 18,
